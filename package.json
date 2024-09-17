@@ -20,7 +20,7 @@
     "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "storybook build -s public",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git"

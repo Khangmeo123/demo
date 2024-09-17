@@ -19,8 +19,8 @@
     "predeploy-storybook": "yarn run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "storybook build -s public",
-    "predeploy": "npm run build-storybook",
-    "deploy": "gh-pages -d storybook-static"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git"
